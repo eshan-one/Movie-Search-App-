@@ -15,7 +15,7 @@ header{
     flex-direction: row;
     justify-content: center;
     align-items: center;
-    background: url(images/frames.png) lightgray 0px -158.291px / 100% 423.007% no-repeat;
+    background: url(images/frames.png) rgb(221, 221, 221) 0px -158.291px / 100% 423.007% no-repeat;
     filter: grayscale(100%) contrast(70%) brightness(80%);
         -webkit-filter: grayscale(100%) contrast(70%) brightness(40%);
     height: 20vh;
