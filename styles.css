@@ -1,0 +1,136 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter&display=swap');
+
+
+html, body{
+    margin: 0;
+    padding: 0;
+    background-color: #121212;
+    color: #FFF;
+    font-family: 'Inter', sans-serif;
+}
+
+header{
+    padding-top: 5.15rem;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    background: url(images/frames.png) lightgray 0px -158.291px / 100% 423.007% no-repeat;
+    filter: grayscale(100%) contrast(70%) brightness(80%);
+        -webkit-filter: grayscale(100%) contrast(70%) brightness(40%);
+    height: 20vh;
+    
+    
+     
+}
+
+header > h1{
+    color: whitesmoke;
+    font-size: 2.5rem;
+    font-weight: 800;
+    
+    
+}
+
+header > h4{
+    margin-left: 50px;
+    cursor: pointer;
+    color: white;
+    text-decoration: none;
+}
+
+
+
+
+/* Search Bar  */
+
+.search-container {
+    display: flex;
+    justify-content: center;
+    margin: 50px;
+    
+}
+
+#search-input {
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    width: 300px;
+    font-size: 16px;
+    background-color: #9CA3AF;
+}
+
+#search-button {
+    padding: 10px 20px;
+    margin-left: 10px;
+    background-color: #4B4B4B;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-style: bold;
+    font-weight: 500;
+
+}
+
+/* #movie-container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+} */
+
+.movie{
+    margin: 1em;
+    padding: 0.5em;
+    display: flex;
+    flex-direction: row;
+    /* justify-content: space-between; */
+    align-items: center;
+    
+}
+
+#movie-img{
+    border: 0px none;
+    border-radius: 5px;
+    height: 9.21319rem;
+    width: 6.1875rem;
+}
+
+.movie-img > img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+/* Movie data includes the title and plot */
+.movie-data {
+    width: 50%;
+    align-self: stretch;
+    margin-left: 0.75em;
+    margin-right: auto;
+    font-size: 0.75rem; /* Adjust the font size as per your preference */
+    padding: 0.75em;
+    padding-top: 0em; /* Adjust the padding as per your preference */
+}
+
+.movie-title{
+    text-align: left;
+    font-size: 1.125rem;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 1.25rem;
+}
+
+hr{
+    margin-top: 0;
+    width: 90vw;
+    color: red;
+    height: 0; 
+}
+
+
+
+
+
+
